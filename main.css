@@ -7,17 +7,22 @@
 
     /* Phase 1 */
 
-    /* Your code here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .example2 {
     border: dashed grey 1px;
     border-radius: 16px;
     padding: 16px;
+    max-width: fit-content;
 
     /* Phase 2 */
 
-    /* Your code here */
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .example2 > button {
@@ -45,8 +50,10 @@
     padding: 12px;
 
     /* Phase 3 */
-
-    /* Your code here */
+    width: 432px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 .example4 {

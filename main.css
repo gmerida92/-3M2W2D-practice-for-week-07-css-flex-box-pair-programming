@@ -8,6 +8,7 @@
     /* Phase 1 */
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -16,11 +17,11 @@
     border: dashed grey 1px;
     border-radius: 16px;
     padding: 16px;
-    max-width: fit-content;
+    /* max-width: fit-content; */
 
     /* Phase 2 */
 
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
 }
@@ -50,16 +51,20 @@
     padding: 12px;
 
     /* Phase 3 */
-    width: 432px;
+    width: 100vw;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+    /* flex-wrap: wrap;
+    flex-direction: row-reverse; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .example4 {
     /* Phase 4 - Part 1 of 2 */
 
-    /* Your code here */
+    display: flex;
+
 }
 
 .sidebar {
